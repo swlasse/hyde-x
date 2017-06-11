@@ -83,6 +83,10 @@ paginate = 10
     # Default (if omitted) is false.
     hideReadingTime = false
 
+    # Hide word count for posts.
+    # Default (if omitted) is false.
+    hideWordCount = false
+
     # Changes sidebar background and link/accent colours.
     # See below for more colour options.
     # This also works: "theme-base-08 layout-reverse", or just "layout-reverse".
