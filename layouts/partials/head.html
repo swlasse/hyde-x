@@ -21,8 +21,8 @@
   {{ with .Site.Params.customCSS }}<link rel="stylesheet" href="{{ . }}">{{ end }}
 
   <!-- Icons -->
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ "/touch-icon-144-precomposed.png" | absURL }}">
-  <link href="{{ "/favicon.png" | absURL }}" rel="icon">
+  {{ with .Site.Params.appleTouchIcon }}<link rel="apple-touch-icon" href="{{ "/" | absURL }}{{ . }}">{{ end }}
+  {{ with .Site.Params.favicon }}<link href="{{ "/" | absURL }}{{ . }}" rel="icon">{{ end }}
 
   <!-- RSS -->
   {{ $siteTitle := .Site.Title }}
