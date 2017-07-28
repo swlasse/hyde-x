@@ -5,3 +5,21 @@
 pre {
   padding: 0
 }
+
+.page, .post {
+    margin-bottom: 2em;
+}
+
+code {
+    background-color: #e4e4e4;
+    padding: 0.2em;
+    color: #484848;
+}
+
+pre code {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #3f3f3f;
+  color: #dcdcdc;
+}
